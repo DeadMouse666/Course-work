@@ -1,0 +1,184 @@
+.student
+ {
+    background: #658fba;
+  }
+
+.index
+ {
+    background: #34495e;
+  }
+
+.teach
+ {
+    background: #165491;
+  }
+
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+
+  .add-section {
+    width: 100%;
+    background: #fff;
+    margin: 0px auto;
+    top: 50%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .add-section input {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0px 5px;
+  }
+
+  .add-section button {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: 0px auto;
+    border: none;
+    outline: none;
+    background: #0088FF;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .add-section button:hover {
+    box-shadow: 0 2px 2px 0 #ccc, 0 2px 3px 0 #ccc;
+    opacity: 0.7;
+  }
+
+  .add-section button span {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+  }
+
+ .header {
+    transition: 0.7s;
+    width: 100%;
+    height: 110px;
+
+    background-color: #111;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 20px;
+    z-index: 2;
+}
+
+.nav__link1 {
+    position: relative;
+    display: flex;
+    margin: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link1:visited{
+    transition: 0.5s linear;
+    text-decoration: none;
+}
+
+.nav__link1:hover {
+    color: skyblue;
+    transition: 0.5s linear;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+
+}
+
+  .img{
+    border-radius: 14%;
+
+
+}
+
+.section {
+  position:  absolute;
+  top:  40%;
+    height: calc(100vh - 70px);
+    padding: 50px 15px;
+text-align: center;
+           left: 0;
+           right: 0;
+           height: 40%;
+
+
+
+}
+/* Dropdown Button */
+.dropbtn {
+    position: relative;
+    display: flex;
+    margin: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #black;
+    min-width: 160px;
+    top: 65px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {    color: skyblue;
+    transition: 0.5s linear;
+    text-decoration: underline;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {    color: gray;
+    transition: 0.5s linear;
+    text-decoration: underline;}
